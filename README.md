@@ -1,5 +1,5 @@
 # References
-This is the branch for us to highlight materials to revisit, team member roles, and project reminders.
+This branch highlights materials to revisit, team member roles, and various project reminders.
 
 ## Roles
 - △ Phil: Mock-up
