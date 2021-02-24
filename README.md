@@ -18,4 +18,5 @@ Sections from canvas worth reviewing?
 - Saturday - Sunday 5pm: Comments, last minute fixes
 
 ### Grading:
-(links)
+
+PDF [https://github.com/emilymcdaniel/Final_Project/blob/Project-References/Module%2B20%2B-Full%2BRubric_Final%2BProject.pdf)]
