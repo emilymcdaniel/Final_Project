@@ -21,7 +21,8 @@ X Matt: The member in the X role will decide which technologies will be used for
 
 ## Grading:
 See 20.0.5
-[PDF] (https://github.com/emilymcdaniel/Final_Project/blob/Project-References/Module%2B20%2B-Full%2BRubric_Final%2BProject.pdf)
+
+[PDF](https://github.com/emilymcdaniel/Final_Project/blob/Project-References/Module%2B20%2B-Full%2BRubric_Final%2BProject.pdf)
 
 ## Materials
 Sections from canvas/alternate sources worth reviewing?
