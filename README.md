@@ -11,10 +11,6 @@ Preliminary questions:
 - What data sources will be useful?
 - How can this question be computationally answered?
 
-- Cohesive, structured outline of the project (this may include images, but they should be easy to follow and digest)
-- Link to dashboard (or link to video of dashboard demonstration)
-- Link to Google Slides presentation
-
 ## Tech Selections (X)
 (Flowchart)
 
