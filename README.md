@@ -18,6 +18,6 @@ We hypothesize that: **Economic change DOES impact the genre of medias consumed*
 ### Tech Selections (X)
 (Flowchart)
 
-### Economic & Genra Datasets (◯)
+### Economic & Genre Datasets (◯)
 
 ### Machine Learning Models (△)
