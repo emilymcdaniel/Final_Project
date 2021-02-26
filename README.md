@@ -1,9 +1,9 @@
 # Intersection of Economic Change & Media Genre Selection
-Do economic changes affect the genres of media that are consumed?
+Do economic changes affect the genre(s) of media that are consumed?
 -----
 
-As economic change occurs, what genres of media do we choose? When you're laid off, do you maintain the same habits in your media selections? Or do you lean on self-help, finance, or comedy media? For this project, we hypothesize that: 
-** Economic change DOES impact the genre of medias consumed**
+As economic change occurs, what genres of media do we choose? When you're financially stressed, do you maintain the same habits in your media selections? Or do you lean on self-help, finance, or comedy media? We hypothesize that: 
+**Economic change DOES impact the genre of medias consumed**
 
 Preliminary questions: 
 - How can "economic change" be defined?
