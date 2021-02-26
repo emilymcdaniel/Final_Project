@@ -14,6 +14,6 @@ Preliminary questions:
 ## Tech Selections (X)
 (Flowchart)
 
-## Economic Dataset Ideas (◯)
+## Economic & Genra Dataset Ideas (◯)
 
-## Maria(△)
+## Machine Learning Decisions (△)
