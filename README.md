@@ -15,6 +15,10 @@ We hypothesize that: **Economic change DOES impact the genre of medias consumed*
 - What data sources will be useful?
 - How can this question be computationally answered?
 
+### Why this topic?
+We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
+Additionally, this question is relevant to evaluating the market and demonstrates the capabilities of our team.
+
 ### Tech Selections (X)
 (Flowchart)
 
