@@ -11,12 +11,12 @@ We hypothesize that: **Economic change DOES impact the genre of medias consumed*
 
 ### Preliminary questions: 
 - How can "economic change" be defined? Are some indicators better than others? 
-- What types of media should be considered? Can different types of media genre results they be viewed in aggregate, or should they be weighted differently?
+- What types of media should be considered? Can different types of media be viewed in aggregate, or should they be individually weighted?
 - What data sources will be useful?
 - How can this question be computationally answered?
 
 ### Why is this topic relevant?
-This question evaluates consumer preferences against the state of the market. This type of exercise is valuable for marketing strategies for any industry, and is a worthwhile analysis to time product releases. 
+This question evaluates consumer preferences against the state of the economy. This type of exercise is valuable for marketing strategies for any industry, and is a worthwhile analysis to time product releases. 
 
 We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
 
@@ -54,7 +54,7 @@ Attend class AND
 **Thursday:**
 Attend class AND
 - Share new results.
-- Make as much progress on the project during class.
+- Make as much progress on the project during class as possible.
 - Be prepared to "present" progress to TAs/Dave.
 - Create action plan with deadlines.
 
