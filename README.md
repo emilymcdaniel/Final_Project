@@ -16,7 +16,8 @@ We hypothesize that: **Economic change DOES impact the genre of medias consumed*
 - How can this question be computationally answered?
 
 ### Why is this topic relevant?
-This question evaluates consumer preferences against the state of the market. This type of analysis is valuable for marketing strategies for any industry, which makes this a worthwhile exercise to time product releases. 
+This question evaluates consumer preferences against the state of the market. This type of exercise is valuable for marketing strategies for any industry, and is a worthwhile analysis to time product releases. 
+
 We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
 
 ### Tech Selections (X)
@@ -44,20 +45,20 @@ X  Matt: The member in the X role will decide which technologies will be used fo
 ### Communication Protocols
 Expectations, Meetings, Deadlines
 
-**Tuesday**
+**Tuesday:**
 Attend class AND
 - Review evaluation from prior week.
 - Begin the week's objectives.
 - Have a plan for actions to be done by Thursday's class.
 
-**Thursday**
+**Thursday:**
 Attend class AND
 - Share new results.
 - Make as much progress on the project during class.
 - Be prepared to "present" progress to TAs/Dave.
 - Create action plan with deadlines.
 
-**Saturday**
+**Saturday:**
 Meet by Zoom AND
 - Review our work.
 - Provide feedback.
