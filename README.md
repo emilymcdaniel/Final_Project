@@ -26,6 +26,8 @@ Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](htt
 ### Economic & Genre Datasets (◯)
 
 ### Machine Learning Models (△)
+Based on the current data sources and our desired output, a Supervised Random Forest Model was selected for modeling.
+Please find details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
 
 -----
 
