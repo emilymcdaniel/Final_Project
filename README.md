@@ -28,12 +28,18 @@ To measure economic changes, the Consumer Price Index, Dow Jones Index history, 
 
 The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
 
-Please find details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
+Please find additional details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
 
 ### Machine Learning Models (△)
 Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
 
-Please find details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
+- Balanced accuracy score: 0.6231
+- Precision score: non-fiction 0.68, fiction 0.55
+- Recall score: non-fiction 0.66, fiction 0.57
+
+![image_name](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/20.1.6-Results.png?raw=true)
+
+Please find additional details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
 
 -----
 
