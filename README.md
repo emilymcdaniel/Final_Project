@@ -24,6 +24,9 @@ We selected this topic because it intersects several areas of interest among our
 Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Final%20Project_Flow%20Chart.pdf).
 
 ### Economic & Genre Datasets (◯)
+To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from 
+
+The Genre dataset was 
 
 ### Machine Learning Models (△)
 Based on the current data sources and our desired output, a Supervised Random Forest Model was selected for modeling.
