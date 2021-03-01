@@ -27,9 +27,11 @@ Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](htt
 To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
 
 The genre dataset is the comprhensive list of New York Times Bestsellers, available through json.  
+Please find details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
 
 ### Machine Learning Models (△)
-Based on the current data sources and our desired output, a Supervised Random Forest Model was selected for modeling.
+Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
+
 Please find details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
 
 -----
