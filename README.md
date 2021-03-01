@@ -26,7 +26,8 @@ Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](htt
 ### Economic & Genre Datasets (◯)
 To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
 
-The genre dataset is the comprhensive list of New York Times Bestsellers, available through json.  
+The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
+
 Please find details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
 
 ### Machine Learning Models (△)
