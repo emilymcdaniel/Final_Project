@@ -1,10 +1,10 @@
 ## Raw Economic Data
 # Sources
-Historical unemployement - bureau of labor statistics
-Inflation (Urban CPI) - bureau of labor statistics
-Equity Indices: S&P, Dow Jones: yahoo finance 
-Home Buyers' Index : fhfa.gov - federal housing finance agency
-University of Michigan Consumer Sentiment: FRED (federal reserve economic data)
+- Historical unemployment - bureau of labor statistics;
+- Inflation (Urban CPI) - bureau of labor statistics;
+- Equity Indices: S&P, Dow Jones: yahoo finance; 
+- Home Buyers' Index : fhfa.gov - federal housing finance agency;
+- University of Michigan Consumer Sentiment: FRED (federal reserve economic data)
 
 ## Issues with the data
 - Some is quarterly, some monthly
