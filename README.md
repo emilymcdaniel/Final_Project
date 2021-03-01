@@ -80,3 +80,4 @@ Meet by Zoom AND
 
 **Communications Style:**
 We intend to attend all classes, communicate via group Slack between classes, and jointly decide by Sunday noon to submit the weekly assignment.
+
