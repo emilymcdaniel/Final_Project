@@ -1,4 +1,4 @@
-## Raw Econmic Data
+## Raw Economic Data
 # Sources
 Historical unemployement - bureau of labor statistics
 Inflation (Urban CPI) - bureau of labor statistics
