@@ -1,14 +1,82 @@
-## Overview 
+# Intersection of Economic Change & Media Genre Selection
+Do economic changes affect the genre(s) of media that are consumed?
+-----
 
-Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model. 
+As economic change occurs, what genres of media do we choose? When you're financially stressed, do you maintain the same habits in your media selections? Or do you lean on self-help, finance, or comedy media? 
 
-## Results 
+We hypothesize that: **Economic change DOES impact the genre of medias consumed**
+
+-----
+## Project Design 
+
+### Preliminary questions: 
+- How can "economic change" be defined? Are some indicators better than others? 
+- What types of media should be considered? Can different types of media be viewed in aggregate, or should they be individually weighted?
+- What data sources will be useful?
+- How can this question be computationally answered?
+
+### Why is this topic relevant?
+This question evaluates consumer preferences against the state of the economy. This type of exercise is valuable for marketing strategies for any industry, and is a worthwhile analysis to time product releases. 
+
+We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
+
+### Tech Selections (X)
+Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Final%20Project_Flow%20Chart.pdf).
+
+### Economic & Genre Datasets (◯)
+To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
+
+The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
+
+Please find additional details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
+
+### Machine Learning Models (△)
+Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
 
 - Balanced accuracy score: 0.6231
 - Precision score: non-fiction 0.68, fiction 0.55
 - Recall score: non-fiction 0.66, fiction 0.57
 
-![image_name](20.1.6-Results.png)
+![image_name](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/20.1.6-Results.png?raw=true)
 
-## Summary 
-Since the initial dataset contains less than 1,000 data points,  to improve our model prediction, additional data and features will be gathered, and additional supervised models will be evaluated. 
+Please find additional details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
+
+-----
+
+## Team Notes
+
+### Roles
+
+△ Maria-Gabriela: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
+
+◯ Phil: The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
+
+X  Matt: The member in the X role will decide which technologies will be used for each step of the project.
+
+□  Emily: The team member in the square role will be responsible for the repository.
+
+
+### Communication Protocols
+Expectations, Meetings, Deadlines
+
+**Tuesday:**
+Attend class AND
+- Review evaluation from prior week.
+- Begin the week's objectives.
+- Have a plan for actions to be done by Thursday's class.
+
+**Thursday:**
+Attend class AND
+- Share new results.
+- Make as much progress on the project during class as possible.
+- Be prepared to "present" progress to TAs/Dave.
+- Create action plan with deadlines.
+
+**Saturday:**
+Meet by Zoom AND
+- Review our work.
+- Provide feedback.
+- If needed, communicate what remaining actions are needed and who can assist.
+
+**Communications Style:**
+We intend to attend all classes, communicate via group Slack between classes, and jointly decide by Sunday noon to submit the weekly assignment.
