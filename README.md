@@ -29,9 +29,8 @@ Our planned approach can be viewed in this [Flowchart](https://github.com/emilym
 ### Economic & Genre Datasets
 To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
 
-The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
+The genre dataset was extracted from https://www.the-numbers.com/, available through csv. This is an Adventure, Comedy, Action & Drama, and Horror movies dataset from 2008-2020 with box office results
 
-=======
 ### Data Issues & Resolutions
 1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end. ***Dates were standardized to end-of-month formats, shown as YYYYMM.***
 2) Length of data history extends for differing time periods. A cutoff that renders results from all genre and economic data needs to be determined as the starting timepoint.
@@ -42,7 +41,7 @@ The genre dataset is the comprehensive list of New York Times Bestsellers, avail
 ***A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
 Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
 
-
+**ECONOMIC DATA NOISE**
 ![Economic Data Noise Illustrated](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Economic%20indeces%20spread.PNG?raw=true)
 
 
