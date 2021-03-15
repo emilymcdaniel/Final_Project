@@ -57,8 +57,10 @@ Using the bestseller-sample dataset as the initial input data, this project aims
 
 [Resulting dataframe](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/Database/output_medianeconomicstable.csv) post-modeling.
 
+**LINEAR REGRESSION**
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
 
+**DECISION TREE**
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
 
 -----
