@@ -43,6 +43,8 @@ The genre dataset is the comprehensive list of New York Times Bestsellers, avail
 Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
 
 
+![Economic Data Noise Illustrated](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Economic%20indeces%20spread.PNG?raw=true)
+
 
 -----
 
@@ -54,6 +56,10 @@ Using the bestseller-sample dataset as the initial input data, this project aims
 3) Decision tree model attempt: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
 [Resulting dataframe](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/Database/output_medianeconomicstable.csv) post-modeling.
+
+![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
+
+![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
 
 -----
 
