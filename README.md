@@ -20,41 +20,54 @@ This question evaluates consumer preferences against the state of the economy. T
 
 We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
 
-### Tech Selections (X)
-Our ETL and presentation plans are visualized in the hyperlinked [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Final%20Project_Flow%20Chart.pdf).
+Our planned approach can be viewed in this [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Final%20Project_Flow%20Chart.pdf).
 
-### Economic & Genre Datasets (◯)
+-----
+
+## Database
+
+### Economic & Genre Datasets
 To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
 
 The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
 
-Please find additional details on [Phil's branch](https://github.com/emilymcdaniel/Final_Project/tree/Phil).
+=======
+### Data Issues & Resolutions
+1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end. ***Dates were standardized to end-of-month formats, shown as YYYYMM.***
+2) Length of data history extends for differing time periods. A cutoff that renders results from all genre and economic data needs to be determined as the starting timepoint.
+***Data start date = Jan2006; end date = Dec2020.*** 
+3) Some data was retrieved in 2-dimensional excel charts, others as csv lists. Data needs to be moved into a single filetype.
+***An Excel pivot-table was used to show sum of gross by genre by issue month to conform 2-dimensional excel charts to csv lists.***
+4) Total gross for genres is given in the month of issue, and is not reflected per month. This will need to be converted to align in with other data reporting timeframes.
+***A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
+Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
 
-### Machine Learning Models (△)
+
+
+-----
+
+## Machine Learning Model
 Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
 
-- Balanced accuracy score: 0.6231
-- Precision score: non-fiction 0.68, fiction 0.55
-- Recall score: non-fiction 0.66, fiction 0.57
+1) The "X" for each model applied was economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
+2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
+3) Decision tree model attempt: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
-![image_name](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/20.1.6-Results.png?raw=true)
+[Resulting dataframe](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/Database/output_medianeconomicstable.csv) post-modeling.
 
-Please find additional details on [Maria-Gabriela's branch](https://github.com/emilymcdaniel/Final_Project/tree/Maria-Gabriela).
+-----
+
+## Presentation Materials
+
+Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v2.pptx)
 
 -----
 
 ## Team Notes
 
-### Roles
+### Team Members
 
-△ Maria-Gabriela: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
-
-◯ Phil: The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
-
-X  Matt: The member in the X role will decide which technologies will be used for each step of the project.
-
-□  Emily: The team member in the square role will be responsible for the repository.
-
+Emily McDaniel | Maria-Gabriela Ordaz | Phil Schechter | Matt Stadler
 
 ### Communication Protocols
 Expectations, Meetings, Deadlines
