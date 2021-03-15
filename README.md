@@ -31,6 +31,7 @@ To measure economic changes, the Consumer Price Index, Dow Jones Index history, 
 
 The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
 
+=======
 ### Data Issues & Resolutions
 1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end. ***Dates were standardized to end-of-month formats, shown as YYYYMM.***
 2) Length of data history extends for differing time periods. A cutoff that renders results from all genre and economic data needs to be determined as the starting timepoint.
@@ -67,7 +68,6 @@ Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcd
 ### Team Members
 
 Emily McDaniel | Maria-Gabriela Ordaz | Phil Schechter | Matt Stadler
-
 
 ### Communication Protocols
 Expectations, Meetings, Deadlines
