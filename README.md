@@ -52,16 +52,15 @@ Using the bestseller-sample dataset as the initial input data, this project aims
 
 ![image_name](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/20.1.6-Results.png?raw=true)
 
-1) The "X" for each modoel applied was the dataframe of exonomic data. Created model for each genre; looped through genres, used each as the "y" (dependent variable)
-2) tried linear regression (least squares) and decision_tree models.
-3) for linear regression, did not split data into training and test sets; which only 5 factors to apply to the economic conditions, I was not concerned about overfitting. Calculated the r-squared coefficient for the model, plotted the fitted y vs. the actual y data
-4) for the DecisionTree model, used the sklearn utility to create training and test sets, then graphed the predicted and actual y test values
+1) The "X" for each model applied was economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
+2) Linear regression (least squares) model attempt: We did not split data into training and test sets; which only 5 factors to apply to the economic conditions, I was not concerned about overfitting. Calculated the r-squared coefficient for the model, plotted the fitted y vs. the actual y data
+3) Decision tree models attempted: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
 -----
 
 ## Presentation Materials
 
-Slides
+Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v2.pptx)
 
 -----
 
