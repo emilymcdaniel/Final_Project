@@ -32,22 +32,14 @@ To measure economic changes, the Consumer Price Index, Dow Jones Index history, 
 The genre dataset is the comprehensive list of New York Times Bestsellers, available through json.  
 
 ### Data Issues & Resolutions
-1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end.
-
-Dates were standardized to end-of-month formats.
-
+1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end. ***Dates were standardized to end-of-month formats.***
 2) Length of data history extends for differing time periods. A cutoff that renders results from all genre and economic data needs to be determined as the starting timepoint.
-
-Data start date = 1/1/2020. 
-
+***Data start date = 1/1/2020.*** 
 3) Some data was retrieved in 2-dimensional excel charts, others as csv lists. Data needs to be moved into a single filetype.
-
-An Excel pivot-table was used to show sum of gross by genre by issue month to conform 2-dimensional excel charts to csv lists.
-
+***An Excel pivot-table was used to show sum of gross by genre by issue month to conform 2-dimensional excel charts to csv lists.***
 4) Total gross for genres is given in the month of issue, and is not reflected per month. This will need to be converted to align in with other data reporting timeframes.
-
-A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
-Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.
+***A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
+Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
 
 -----
 
