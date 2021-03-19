@@ -1,21 +1,21 @@
 -- Create tables
 
 CREATE TABLE economics (
-	eDate INT,
+	"Date" INT,
 	inflation REAL,
-	SPyield REAL,
+	"SPyield" REAL,
 	unemployment REAL,
-	UMCSENT4 REAL,
+	"UMCSENT" REAL,
 	homeindex REAL,
-	PRIMARY KEY (eDate)
+	PRIMARY KEY ("Date")
 	
 );
 
 CREATE TABLE media_info (
-	mDate INT,
-	Genre TEXT,
-	Gross INT,
-	FOREIGN KEY (mDate) REFERENCES economics(eDate)
+	"Date" INT,
+	"Genre" TEXT,
+	"Gross" INT,
+	FOREIGN KEY ("Date") REFERENCES economics("Date")
 
 );
 
@@ -26,17 +26,18 @@ SELECT * FROM economics;
 
 -- Joining economics & media table
 
-SELECT e.edate,
+
+SELECT e."Date",
 e.inflation,
-e.spyield,
+e."SPyield",
 e.unemployment,
-e.umcsent4,
+e."UMCSENT",
 e.homeindex,
-me.genre,
-me.gross
+me."Genre",
+me."Gross"
 INTO medianeconomics
 FROM economics AS e
 INNER JOIN media_info AS me
-ON (e.edate = me.mdate);
+ON (e."Date" = me."Date");
 
 
