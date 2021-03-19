@@ -40,6 +40,7 @@ The genre dataset was extracted from https://www.the-numbers.com/, available thr
 4) Total gross for genres is given in the month of issue, and is not reflected per month. This will need to be converted to align in with other data reporting timeframes.
 ***A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
 Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
+5) Available data was in different units. **Must be converted prior to machine learning application.**
 
 **ECONOMIC DATA NOISE**
 ![Economic Data Noise Illustrated](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Economic%20indeces%20spread.PNG?raw=true)
@@ -48,7 +49,7 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 -----
 
 ## Machine Learning Model
-Using the bestseller-sample dataset as the initial input data, this project aims to determine if the economic changes affect the genre(s) of consumed media. Using the variables price, year, and UMCSEMT (University of Michigan Consumer Sentiment), the ML model objective is to predict the book's genre, fiction or non-fiction. Since we are using an input (features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
+Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
 
 1) The "X" for each model applied was economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
 2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
@@ -70,33 +71,4 @@ Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcd
 
 -----
 
-## Team Notes
-
-### Team Members
-
-Emily McDaniel | Maria-Gabriela Ordaz | Phil Schechter | Matt Stadler
-
-### Communication Protocols
-Expectations, Meetings, Deadlines
-
-**Tuesday:**
-Attend class AND
-- Review evaluation from prior week.
-- Begin the week's objectives.
-- Have a plan for actions to be done by Thursday's class.
-
-**Thursday:**
-Attend class AND
-- Share new results.
-- Make as much progress on the project during class as possible.
-- Be prepared to "present" progress to TAs/Dave.
-- Create action plan with deadlines.
-
-**Saturday:**
-Meet by Zoom AND
-- Review our work.
-- Provide feedback.
-- If needed, communicate what remaining actions are needed and who can assist.
-
-**Communications Style:**
-We intend to attend all classes, communicate via group Slack between classes, and jointly decide by Sunday noon to submit the weekly assignment.
+**Team Members:** Emily McDaniel | Maria-Gabriela Ordaz | Phil Schechter | Matt Stadler
