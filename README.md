@@ -73,7 +73,7 @@ Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcd
 
 ## Dashboard
 
-Our data can be visualized in this [Tableau Dashboard](https://public.tableau.com/views/V1Dataoutputfrommedianeconomics/EcImpactonMovieGenre?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+Our data can be visualized in this [Tableau Dashboard](https://public.tableau.com/views/V1Dataoutputfrommedianeconomics/EcImpactonMovieGenre?:language=en&:display_count=y&publish=yes&:origin=viz_share_link) = but is better seen in through this [story](https://public.tableau.com/shared/MR246B8BS?:display_count=y&:origin=viz_share_link).
 
 -----
 
