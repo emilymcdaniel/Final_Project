@@ -64,6 +64,7 @@ Since we are using an input (economic features) to predict an output (genre medi
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
 
 **CORRELATION SQUARE**
+
 ![Economic Feature Correlation](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Correlation%20Square.png?raw=true)
 
 -----
