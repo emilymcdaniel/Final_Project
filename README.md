@@ -55,8 +55,8 @@ Since we are using an input (economic features) to predict an output (genre medi
 2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
 3) Decision tree model: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
-[Modeling Code: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Machine%20Learning%20Model%20Final.ipynb)
-[Resulting dataframe: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Database/medianeconomics_df.csv).
+Test the [Modeling Code: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Machine%20Learning%20Model%20Final.ipynb).
+View the [Resulting dataframe: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Database/medianeconomics_df.csv).
 
 **LINEAR REGRESSION**
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
