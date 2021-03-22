@@ -29,7 +29,7 @@ Our planned approach can be viewed in this [Flowchart](https://github.com/emilym
 ### Economic & Genre Datasets
 To measure economic changes, the Consumer Price Index, Dow Jones Index history, S&P 500 history, Unemployment rates, Home Buyer Index, University of Michigan: Consumer Sentiment (UMCSENT) were pulled from the Bureau of Labor Statistics, Yahoo! Finance, Federal Housing Finance Agency, and the Federal Reserve Economic Data, respectively. Each was available in .xls, .xlsx, .csv, .txt formats, and can be stored locally.
 
-The genre dataset was extracted from https://www.the-numbers.com/, available through csv. This is an Adventure, Comedy, Action & Drama, and Horror movies dataset from 2008-2020 with box office results
+The genre dataset was extracted from https://www.the-numbers.com/, available through csv. This is an Action, Adventure, Comedy, Drama, Horror, and Thriller movies dataset from 2006-2020 with box office results.
 
 ### Data Issues & Resolutions
 1) Date formats are reported by quarter, month or day; additionally, some are listed as beginning of the month, others at the end. ***Dates were standardized to end-of-month formats, shown as YYYYMM.***
@@ -49,13 +49,14 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 -----
 
 ## Machine Learning Model
-Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
+Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a **Supervised Random Forest Model**.
 
 1) The "X" for each model applied was the economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
 2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
-3) Decision tree model attempt: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
+3) Decision tree model: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
-[Resulting dataframe](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/Database/output_medianeconomicstable.csv) post-modeling.
+[Modeling Code: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Machine%20Learning%20Model%20Final.ipynb)
+[Resulting dataframe: ](https://github.com/emilymcdaniel/Final_Project/blob/main/Database/medianeconomics_df.csv).
 
 **LINEAR REGRESSION**
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
@@ -63,9 +64,11 @@ Since we are using an input (economic features) to predict an output (genre medi
 **DECISION TREE (preferred)**
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
 
-**CORRELATION SQUARE**
+**CORRELATION SQUARES**
 
 ![Economic Feature Correlation](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Correlation%20Square.png?raw=true)
+
+![Genre/Economic Feature Correlation](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Correlation%20Square%20-%20Ec%20Genre.PNG?raw=true)
 
 -----
 
