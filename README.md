@@ -70,7 +70,7 @@ Since we are using an input (economic features) to predict an output (genre medi
 
 ## Presentation Materials
 
-Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v2.pptx)
+Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v3.pptx?raw=true).
 
 -----
 
