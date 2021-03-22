@@ -40,7 +40,7 @@ The genre dataset was extracted from https://www.the-numbers.com/, available thr
 4) Total gross for genres is given in the month of issue, and is not reflected per month. This will need to be converted to align in with other data reporting timeframes.
 ***A moving average of the data over a rolling 12 month period for movie data was calculated, then currency was converted into percent of monthly total by genre.
 Figures within each datatype were also be normalized (ranges and volumes vary). Genre data was combined with the economic data dataframe before applying machine learning.***
-5) Available data was in different units. **Must be converted prior to machine learning application.**
+5) Available data was in different ranges. ***Must be converted prior to machine learning application.***
 
 **ECONOMIC DATA NOISE**
 ![Economic Data Noise Illustrated](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Economic%20indeces%20spread.PNG?raw=true)
@@ -51,7 +51,7 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 ## Machine Learning Model
 Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a Supervised Random Forest Model.
 
-1) The "X" for each model applied was economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
+1) The "X" for each model applied was the economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
 2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
 3) Decision tree model attempt: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
 
@@ -60,8 +60,11 @@ Since we are using an input (economic features) to predict an output (genre medi
 **LINEAR REGRESSION**
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
 
-**DECISION TREE**
+**DECISION TREE (preferred)**
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
+
+**CORRELATION SQUARE**
+![]()
 
 -----
 
@@ -73,7 +76,7 @@ Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcd
 
 ## Dashboard
 
-Our data can be visualized in this [Tableau Dashboard](https://public.tableau.com/views/V1Dataoutputfrommedianeconomics/EcImpactonMovieGenre?:language=en&:display_count=y&publish=yes&:origin=viz_share_link) = but is better seen in through this [story](https://public.tableau.com/shared/MR246B8BS?:display_count=y&:origin=viz_share_link).
+Our data can be visualized in this [Tableau Story](https://public.tableau.com/views/VisualizingtheEconomy-MovieGenrerelationship/Theeconomysimpactonmoviegenreinterest?:language=en&:display_count=y&publish=yes&:origin=viz_share_link).
 
 -----
 
