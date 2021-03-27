@@ -49,7 +49,7 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 -----
 
 ## Machine Learning Model
-Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a **Supervised Random Forest Model**.
+Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a **Deep Forest Model**.
 
 1) The "X" for each model applied was the economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
 2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
@@ -61,8 +61,11 @@ View the [Resulting Datafile (.csv)](https://github.com/emilymcdaniel/Final_Proj
 **LINEAR REGRESSION**
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
 
-**DECISION TREE (preferred)**
+**DECISION TREE**
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
+
+**DEEP FOREST**
+![Deep Forest](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/DEEP%20FOREST%20modeling.png?raw=true)
 
 **CORRELATION SQUARES**
 
@@ -74,7 +77,7 @@ View the [Resulting Datafile (.csv)](https://github.com/emilymcdaniel/Final_Proj
 
 ## Presentation Materials
 
-Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v3.pptx?raw=true).
+Our presentation will be delivered as a [Powerpoint](https://github.com/emilymcdaniel/Final_Project/blob/main/BootCamp_FinalPres_v4.pptx?raw=true).
 
 -----
 
