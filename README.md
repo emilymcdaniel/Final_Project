@@ -49,11 +49,16 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 -----
 
 ## Machine Learning Model
-Since we are using an input (economic features) to predict an output (genre media) and interpretability and accuracy are important, the Machine Learning Model selected is a **Deep Forest Model**.
+The independent variables "X" for each model were the economic data. We then applied the model by looping through each genre; the monthly market share by genre was our "y" (dependent variable).
+Since we are using an input (economic features) to predict an output (market share by genre) we want to balance ease of interpretation with accuracy. In order of transparency  to best fit: 
 
-1) The "X" for each model applied was the economic dataframe. A model was created looping through each genre, using each as the "y" (dependent variable).
-2) Linear regression (least squares) model attempt: We did not split data into training and test sets, as only 5 factors to apply to the economic conditions. Overfitting was not a concern. Calculated the r-squared coefficient for the model, plotted the fitted "y" vs. the actual y data
-3) Decision tree model: We used the Scikit-learn to create training and test sets, then graphed the predicted and actual y test values
+- Linear regression (least squares) model is easy to explain when it works, and shows which factors are important. We did not get a good fit with this model
+
+- Decision tree models attempt: We used Scikit-learn to create training and test sets, then graphed the predicted and actual y test values. Graphs showed some relationship, but not strong for must genres
+
+- Random Forest Regressor: used the same approach as for the decision tree model, gave a tighter fit
+
+
 
 Test the [Modeling Code](https://github.com/emilymcdaniel/Final_Project/blob/main/Machine%20Learning%20Model%20Final.ipynb).
 View the [Resulting Datafile (.csv)](https://github.com/emilymcdaniel/Final_Project/blob/main/Database/medianeconomics_df.csv).
