@@ -1,10 +1,10 @@
-# Intersection of Economic Change & Media Genre Selection
-Do economic changes affect the genre(s) of media that are consumed?
+# Intersection of Economic Change & Movie Genre Selection
+Do economic changes affect the genre(s) of movies that are consumed?
 -----
 
 As economic change occurs, what genres of media do we choose? When you're financially stressed, do you maintain the same habits in your media selections? Or do you lean on self-help, finance, or comedy media? 
 
-We hypothesize that: **Economic change DOES impact the genre of medias consumed**
+We hypothesize that: **Economic change DOES impact the genre of movies consumed**
 
 -----
 ## Project Design 
@@ -18,9 +18,9 @@ We hypothesize that: **Economic change DOES impact the genre of medias consumed*
 ### Why is this topic relevant?
 This question evaluates consumer preferences against the state of the economy. This type of exercise is valuable for marketing strategies for any industry, and is a worthwhile analysis to time product releases. 
 
-We selected this topic because it intersects several areas of interest among our group members, including e-commerce, finance, and reading.
+We selected this topic because it intersects several areas of interest among our group members, including e-commerce and finance.
 
-Our planned approach can be viewed in this [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Final%20Project_Flow%20Chart.pdf).
+Our approach can be viewed in this [Flowchart](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Final%20Project_Flow%20Chart.png).
 
 -----
 
