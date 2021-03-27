@@ -62,6 +62,7 @@ View the [Resulting Datafile (.csv)](https://github.com/emilymcdaniel/Final_Proj
 ![Linear Regression](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Linear%20Regression%20modeling.PNG?raw=true)
 
 **DECISION TREE**
+
 ![Decision Tree](https://github.com/emilymcdaniel/Final_Project/blob/main/Visuals/Decision%20Tree%20modeling.PNG?raw=true)
 
 **DEEP FOREST**
