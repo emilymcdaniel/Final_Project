@@ -52,7 +52,7 @@ Figures within each datatype were also be normalized (ranges and volumes vary). 
 The independent variables "X" for each model were the economic data. We then applied the model by looping through each genre; the monthly market share by genre was our "y" (dependent variable).
 Since we are using an input (economic features) to predict an output (market share by genre) we want to balance ease of interpretation with accuracy. In order of transparency  to best fit: 
 
-- Linear regression (least squares) model is easy to explain when it works, and shows which factors are important. We did not get a good fit with this model
+- Linear regression (least squares) model is easy to explain when it works, and shows which factors are important. We did not split into training and test sets; with only one factor per independent variable, overfitting was not not a cocern.  Ultimately, we did not get a good fit with this model
 
 - Decision tree models attempt: We used Scikit-learn to create training and test sets, then graphed the predicted and actual y test values. Graphs showed some relationship, but not strong for must genres
 
