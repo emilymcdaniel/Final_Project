@@ -3,20 +3,24 @@
 CREATE TABLE economics (
 	"Date" INT,
 	inflation REAL,
-	"SPyield" REAL,
+	SPyield REAL,
 	unemployment REAL,
-	"UMCSENT" REAL,
+	UMCSENT4 REAL,
 	homeindex REAL,
 	PRIMARY KEY ("Date")
 	
 );
 
 CREATE TABLE media_info (
-	"Date" INT,
-	"Genre" TEXT,
-	"Gross" INT,
-	FOREIGN KEY ("Date") REFERENCES economics("Date")
-
+	"date" INT,
+	"Action" REAL,
+	Adventure REAL,
+	Comedy REAL, 
+	Drama REAL, 
+	Horror REAL,
+	ThrillerSuspense REAL,
+	FOREIGN KEY ("date") REFERENCES economics("Date")
+	
 );
 
 -- Query database to check successful upload
@@ -24,20 +28,22 @@ SELECT * FROM media_info;
 SELECT * FROM economics;
 
 
+
 -- Joining economics & media table
 
-
-SELECT e."Date",
+SELECT e.date,
 e.inflation,
-e."SPyield",
+e.spyield,
 e.unemployment,
-e."UMCSENT",
+e.umcsent4,
 e.homeindex,
-me."Genre",
-me."Gross"
+me.action,
+me.Adventure,
+me.Comedy,
+me.Drama,
+me.Horror,
+me.ThrillerSuspense
 INTO medianeconomics
 FROM economics AS e
 INNER JOIN media_info AS me
-ON (e."Date" = me."Date");
-
-
+ON (e.Date = m.date);
