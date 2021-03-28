@@ -60,7 +60,7 @@ Since we are using an input (economic features) to predict an output (market sha
 
 
 
-Test the [Modeling Code](https://github.com/emilymcdaniel/Final_Project/blob/main/Machine%20Learning%20Model%20Final.ipynb).
+Test the [Modeling Code](https://github.com/emilymcdaniel/Final_Project/blob/Maria-Gabriela/Machine%20Learning%20Model%20Final.ipynb).
 View the [Resulting Datafile (.csv)](https://github.com/emilymcdaniel/Final_Project/blob/main/Database/medianeconomics_df.csv).
 
 **LINEAR REGRESSION**
